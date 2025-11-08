@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang ="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python в искусственном интеллекте</title>
+    <link rel="icon" type="image/x-icon" href="Python.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Python в искусственном интеллекте</h1>
+        <p>
+            Обзор библиотек и инструментов для разработки ИИ на Python
+            <img src="Phyton24.png" alt="Python Logo" style="width:290px; vertical-align: middle;">
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2> 1.Введение</h2>
+            <p> <h3>Python - не просто язык программирования, а инфраструктурная основа совеременного ИИ.
+                По данным Stack Overflow Deleveloper survey 2024 и IEEE Spectrum, он уверенно удерживает
+                1-е место среди языков для машинного обучения, глубокого обучения и анализа данных</h3>
+            </p>
+            <p>
+                <h3>Его доменирование обусловлено тремя ключевымии факторами:</h3>
+            </p>
+            <ul>
+                <li>Простота синтаксиса - код в 3-5 раз короче, чем на C++ или Java</li>
+                <li>Экосистема - более 100 специализированных библиотек для ИИ</li>
+                <li>Сообщество - 15+ миллионов разработчиков по всему миру</li>
+            </ul>
+        </section>
+        <section>
+            <h2>2.Почему именно Python?</h2>
+            <ul>
+                <li><b>Читаемый код</b>-лаконичный синтаксис, минимум 'шума'</li>
+                <li><b>более 100 библиотек</b>-от NumPy до Hugging Face</li>
+                <li><b>GPU, TPU</b>-нативная поддержка через CUDA, TensorFlow, PyTorch</li>
+                <li><b>Прототипирование</b>-от идеи до модели за часы</li>
+                <li><b>Сообщество</b>-курсы, форумы, конференции, open-source</li>
+                <li><b>Кроссплатформенность</b>-Windows, Linux, macOS, облака, браузеры</li>
+            </ul>
+        </section>
+        <section>
+            <h2>3. Ключевые библиотеки</h2>
+            <h3> HumPy-Core</h3>
+            <p><li>Математические операции с массивами. Векторизация &gt; ускорение в 50 или даже в 100 раз. Основа всех ИИ-библиотек.</li></p>
+            <h3> Pandas</h3>
+            <p><li>Табличные данные как Excel, но мощнее. Очистка, фильтрация, агренация.</li></p>
+            <h3>Scikit-learn</h3>
+            <p><li>Классическое ML: регрессия, классификация, SVM, кластеризация, ансамбли. Унифицированное API.</li></p>
+       
+            <h3>PyTorch — Research</h3>
+            <p><li>98% статей на NeurIPS. Динамический граф вычислений. Поддержка GPU.</li></p>
+            <h3>Hugging Face Transformers</h3>
+            <p>100 000+ предобученных моделей: BERT, GPT, CLIP, Whisper и др.</p>
+
+            <h3>LangChain / LlamaIndex</h3>
+            <p>RAG, агенты, память, интеграция с базами знаний. Создание чат-ботов и ассистентов.</p>
+        </section>
+
+        <section>
+            <h2>4. Дополнительные Инструменты</h2>
+            <table>
+                <tr><th>Библиотека</th><th>Назначение</th></tr>
+                <tr><td>JAX</td><td>Автодифференцирование + GPU/TPU</td></tr>
+                <tr><td>Dask / Ray</td><td>Параллельные и распределённые вычисления</td></tr>
+                <tr><td>Polars</td><td>Pandas на Rust — в 10x быстрее</td></tr>
+                <tr><td>Optuna</td><td>Автоматический подбор гиперпараметров</td></tr>
+                <tr><td>Gradio / Streamlit</td><td>Веб-интерфейсы для моделей</td></tr>
+                <tr><td>FastAPI</td><td>Быстрые API для ИИ-моделей</td></tr>
+            </table>
+        </section>
+        <section>
+            <h2>5. Область применения</h2>
+            <table>
+                <tr><th>Область</th><th>Инструменты</th></tr>
+                <tr><td>Обработка данных</td><td>Pandas, Dask, Polars</td></tr>
+                <tr><td>Машинное обучение</td><td>Scikit-learn, XGBoost</td></tr>
+                <tr><td>Глубокое обучение</td><td>PyTorch, TensorFlow, JAX</td></tr>
+                <tr><td>NLP</td><td>Transformers, spaCy</td></tr>
+                <tr><td>Компьютерное зрение</td><td>OpenCV, YOLO, Detectron2</td></tr>
+                <tr><td>Генеративный ИИ</td><td>Stable Diffusion, Diffusers</td></tr>
+                <tr><td>Усиленное обучение</td><td>Gym, SB3, RLlib</td></tr>
+                <tr><td>Квантовый ИИ</td><td>Qiskit, Pennylane</td></tr>
+            </table>
+        </section>
+    
+        <section>
+            <h2>6. Будущее Python в ИИ</h2>
+            <ul>
+                <li><b>PyTorch 2.0+</b> — ускорение через torch.compile()</li>
+                <li><b>JAX + Flax</b> — оптимизация под TPU</li>
+                <li><b>Mojo</b> — новый сверхбыстрый superset Python</li>
+                <li><b>WebAssembly</b> — запуск моделей в браузере</li>
+                <li><b>Мультимодальность</b> — текст + изображение + аудио</li>
+                <li><b>AutoML</b> — ИИ оптимизирует ИИ</li>
+            </ul>
+        </section>
+        <section>
+            <h2>7. Заключение</h2>
+            <p>
+                Python — это не просто язык, а целая экосистема, которая сделала
+                ИИ доступным для миллионов.</p>
+            </p>
+            <p>
+                От студента до исследователя в DeepMind —
+                все используют Python. Его роль только укрепится в будущем.
+            
+        </section>
+
+        <footer>
+             Creator: Мухамеджанов А. Асанбеков А. Бочкарёв К.
+            <br>Group: DevStorm
+        </footer>
+        </section>
+        
+    </main>
+</body>
+
+</html>
