@@ -331,7 +331,7 @@
 
         footer {
             background: #0f172a;
-            color: #94a3b8;
+            color: ##FFFAFA;
             text-align: center;
             padding: 40px 25px;
             margin-top: 70px;
@@ -348,7 +348,7 @@
         }
 
         footer a:hover {
-            color: #FFFFFF;
+            color: ##FFFAFA;
             text-decoration: underline;
         }
 
@@ -409,5 +409,6 @@
             }
 
         }
+
 
 
