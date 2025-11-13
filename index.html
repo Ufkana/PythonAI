@@ -127,6 +127,15 @@ print(np.dot(a, b))  # 32
             </div>
         </div>
         </div>
+            <h3><i class="fas fa-table"></i> Pandas</h3>
+                <p>Табличные данные как Excel, но мощнее. Очистка, фильтрация, агрегация, обработка пропусков.</p>
+                <div class="code-block">
+import pandas as pd<br>
+df = pd.read_csv('data.csv')<br>
+df = df.dropna().groupby('category').mean(numeric_only=True)<br>
+df.to_excel('result.xlsx')
+                </div>
+            </div>
             </section>
 
         <footer>
@@ -142,6 +151,7 @@ print(np.dot(a, b))  # 32
 
 
 </html>
+
 
 
 
