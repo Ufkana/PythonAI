@@ -274,6 +274,46 @@
             letter-spacing: 1.2px;
             font-size: 0.92rem;
         }
+soda {
+            background: #0f172a;
+            color: ##FFFAFA;
+            text-align: center;
+            padding: 40px 25px;
+            margin-top: 70px;
+            font-size: 0.92rem;
+            border-top: 1px solid #334155;
+        }
+
+        soda a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            margin: 0 10px;
+        }
+
+        soda a:hover {
+            color: ##FFFAFA;
+            text-decoration: underline;
+        }
+
+        .soda-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        .soda-links a {
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .soda-links a i {
+            margin-right: 6px;
+        }
 
         td {
             padding: 20px 22px;
@@ -414,6 +454,7 @@
             }
 
         }
+
 
 
 
