@@ -36,7 +36,12 @@
             overflow: hidden;
             box-shadow: 0 12px 35px rgba(0,0,0,0.5);
         }
-
+            soda228 {
+            color: ##FFFAFA;
+            text-align: center;
+            padding: 40px 25px;
+            margin-top: 70px;
+        }
         header::before {
             content: '';
             position: absolute;
@@ -409,6 +414,7 @@
             }
 
         }
+
 
 
 
